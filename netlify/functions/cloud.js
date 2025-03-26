@@ -3,7 +3,7 @@ const fs = require("fs");
 const Eleventy = require("@11ty/eleventy");
 // const debug = require("debug");
 
-const PROJECT_DIR = "/var/task/src/netlify/functions/cloud/";
+const PROJECT_DIR = "/var/task/netlify/functions/cloud/";
 const INPUT_DIR = "./src/";
 const INPUT_PATH = "./src/sample-nunjucks.njk";
 
