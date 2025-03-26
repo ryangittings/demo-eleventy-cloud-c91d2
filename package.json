@@ -2,7 +2,6 @@
   "name": "eleventy-cloud",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "bundle": "./bundle.sh",
@@ -13,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "1.0.0-canary.10",
+    "@11ty/eleventy": "1.0.0",
     "debug": "^4.3.1"
   }
 }
