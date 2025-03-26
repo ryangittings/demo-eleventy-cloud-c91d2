@@ -46,6 +46,9 @@ exports.handler = async (event, context) => {
     console.log( "Input Dir: ", INPUT_DIR);
     console.log( "Path: ", INPUT_PATH );
 
+    const files = fs.readdirSync(process.cwd());
+    console.log("Files: ", files);
+
     return {
       statusCode: 200,
       headers: {
